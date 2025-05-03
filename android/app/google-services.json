@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "967694273487",
+    "project_id": "ksdemmo-39m9f8",
+    "storage_bucket": "ksdemmo-39m9f8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967694273487:android:5853291b0a9eac09f6e0ba",
+        "android_client_info": {
+          "package_name": "com.mycompany.ksdemmo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAStalixpTPzQg7dg0rn9oLfXZTGppIIjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
