@@ -6,8 +6,8 @@ import 'package:flutter/material.dart';
 class DiseaseDetectionModel extends FlutterFlowModel<DiseaseDetectionWidget> {
   ///  State fields for stateful widgets in this page.
 
-  bool isDataUploading = false;
-  FFUploadedFile uploadedLocalFile =
+  bool isDataUploading_uploadDataY9k = false;
+  FFUploadedFile uploadedLocalFile_uploadDataY9k =
       FFUploadedFile(bytes: Uint8List.fromList([]));
 
   // Stores action output result for [Gemini - Generate Text] action in Button widget.

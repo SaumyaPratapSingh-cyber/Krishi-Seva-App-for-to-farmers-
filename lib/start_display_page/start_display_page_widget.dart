@@ -50,7 +50,7 @@ class _StartDisplayPageWidgetState extends State<StartDisplayPageWidget> {
           automaticallyImplyLeading: false,
           title: Text(
             FFLocalizations.of(context).getText(
-              '7u5qpsvr' /* Page Title */,
+              '2bdpbhsm' /* Page Title */,
             ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   font: GoogleFonts.interTight(
@@ -108,7 +108,6 @@ class _StartDisplayPageWidgetState extends State<StartDisplayPageWidget> {
                         ),
                         icon: Icon(
                           Icons.fingerprint_sharp,
-                          color: Colors.black,
                           size: 65.0,
                         ),
                         options: FFButtonOptions(
@@ -118,6 +117,7 @@ class _StartDisplayPageWidgetState extends State<StartDisplayPageWidget> {
                               16.0, 0.0, 16.0, 0.0),
                           iconPadding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 0.0, 0.0),
+                          iconColor: Colors.black,
                           color: Color(0xFF257D54),
                           textStyle:
                               FlutterFlowTheme.of(context).titleSmall.override(

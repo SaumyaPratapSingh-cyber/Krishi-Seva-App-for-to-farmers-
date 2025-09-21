@@ -276,7 +276,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Continue Anonymous',
       'hi': 'जारी रखें अनाम',
     },
-    'rciomu05': {
+    '750hxi5s': {
       'en': 'Home',
       'hi': 'घर',
     },
@@ -287,7 +287,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
       'hi': '->',
     },
-    '7u5qpsvr': {
+    '2bdpbhsm': {
       'en': 'Page Title',
       'hi': 'पृष्ठ शीर्षक',
     },
@@ -591,7 +591,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
           'Prompt:\nBased on the plant image(upoaded image) ,analyze and predict the disease affecting the plant. The response must strictly contain:\n- Disease Name – The identified plant disease.\n- Precaution – A brief recommendation for prevention or treatment.\n-Ensure accuracy and keep the response concise, without additional remarks or disclaimers—just direct results.\n',
       'hi': '',
     },
-    'wse78vgc': {
+    '8kbxx0a6': {
       'en': 'Page Title',
       'hi': 'पृष्ठ शीर्षक',
     },
@@ -599,7 +599,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Scan Disease -Get Precaution',
       'hi': '',
     },
-    'jgtx571w': {
+    '5qn59665': {
       'en': 'Home',
       'hi': 'घर',
     },

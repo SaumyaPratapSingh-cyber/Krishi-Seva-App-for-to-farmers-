@@ -69,7 +69,7 @@ class _DiseaseDetectionWidgetState extends State<DiseaseDetectionWidget> {
                   children: [
                     Text(
                       FFLocalizations.of(context).getText(
-                        'wse78vgc' /* Page Title */,
+                        '8kbxx0a6' /* Page Title */,
                       ),
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
@@ -162,8 +162,8 @@ class _DiseaseDetectionWidgetState extends State<DiseaseDetectionWidget> {
                                     selectedMedia.every((m) =>
                                         validateFileFormat(
                                             m.storagePath, context))) {
-                                  safeSetState(
-                                      () => _model.isDataUploading = true);
+                                  safeSetState(() => _model
+                                      .isDataUploading_uploadDataY9k = true);
                                   var selectedUploadedFiles =
                                       <FFUploadedFile>[];
 
@@ -179,12 +179,13 @@ class _DiseaseDetectionWidgetState extends State<DiseaseDetectionWidget> {
                                             ))
                                         .toList();
                                   } finally {
-                                    _model.isDataUploading = false;
+                                    _model.isDataUploading_uploadDataY9k =
+                                        false;
                                   }
                                   if (selectedUploadedFiles.length ==
                                       selectedMedia.length) {
                                     safeSetState(() {
-                                      _model.uploadedLocalFile =
+                                      _model.uploadedLocalFile_uploadDataY9k =
                                           selectedUploadedFiles.first;
                                     });
                                   } else {
@@ -196,7 +197,8 @@ class _DiseaseDetectionWidgetState extends State<DiseaseDetectionWidget> {
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(8.0),
                                 child: Image.memory(
-                                  _model.uploadedLocalFile.bytes ??
+                                  _model.uploadedLocalFile_uploadDataY9k
+                                          .bytes ??
                                       Uint8List.fromList([]),
                                   width: 168.6,
                                   height: 174.32,
@@ -212,7 +214,7 @@ class _DiseaseDetectionWidgetState extends State<DiseaseDetectionWidget> {
                             onPressed: () async {
                               await geminiGenerateText(
                                 context,
-                                '${_model.uploadedLocalFile.blurHash}${_model.dropDownValue}',
+                                '${_model.uploadedLocalFile_uploadDataY9k.blurHash}${_model.dropDownValue}',
                               ).then((generatedText) {
                                 safeSetState(
                                     () => _model.command = generatedText);
